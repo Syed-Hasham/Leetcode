@@ -2,9 +2,9 @@ class Solution(object):
     def merge(self, nums1, m, nums2, n):
         i = m - 1
         j = n - 1
-        k = m+n-1
-        while(j>=0):
-            if(nums1[i]>nums2[j] and i>=0):
+        k = m + n -1
+        while(j >= 0):
+            if((nums1[i] > nums2[j]) and i>=0):
                 nums1[k] = nums1[i]
                 i -= 1
             else:
